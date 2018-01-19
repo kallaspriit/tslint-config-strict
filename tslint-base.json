@@ -1,0 +1,29 @@
+{
+  "extends": ["tslint:all"],
+  "rules": {
+    "object-literal-sort-keys": [false],
+    "variable-name": [true, "allow-leading-underscore"],
+    "member-ordering": [true, { "order": "fields-first" }],
+    "no-default-export": false,
+    "only-arrow-functions": [true, "allow-declarations"],
+    "comment-format": [
+      true,
+      "check-space",
+      "check-lowercase",
+      { "ignore-words": ["TODO"] }
+    ],
+    "no-console": false,
+    "no-import-side-effect": [true, { "ignore-module": "(\\.css|\\.svg)$" }],
+    "no-magic-numbers": [true, -1, 0, 1, 2, 1000, 60],
+    "await-promise": [true, "AxiosPromise"],
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"],
+    "strict-boolean-expressions": [true, "allow-undefined-union"],
+    "typedef": false,
+    "newline-per-chained-call": false,
+    "completed-docs": false,
+    "no-unsafe-any": false,
+    "return-undefined": false,
+    "prefer-object-spread": false,
+    "no-parameter-properties": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tslint-config-strict",
+  "version": "1.2.0",
+  "description": "Strict tslint configuration based build by changing some rules from tslint:all base.",
+  "main": "tslint-base.json",
+  "repository": "git@github.com:kallaspriit/tslint-config-strict.git",
+  "author": "Priit Kallas <kallaspriit@gmail.com>",
+  "license": "MIT"
+}

@@ -24,6 +24,7 @@
     "no-unsafe-any": false,
     "return-undefined": false,
     "prefer-object-spread": false,
-    "no-parameter-properties": false
+    "no-parameter-properties": false,
+    "no-implicit-dependencies": [true, "dev"]
   }
 }

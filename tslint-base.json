@@ -2,7 +2,7 @@
   "extends": ["tslint:all"],
   "rules": {
     "object-literal-sort-keys": [false],
-    "variable-name": [true, "allow-leading-underscore"],
+    "variable-name": [true, "allow-leading-underscore", "allow-pascal-case"],
     "member-ordering": [true, { "order": "fields-first" }],
     "no-default-export": false,
     "only-arrow-functions": [true, "allow-declarations"],

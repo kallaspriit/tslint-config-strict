@@ -25,6 +25,7 @@
     "return-undefined": false,
     "prefer-object-spread": false,
     "no-parameter-properties": false,
-    "no-implicit-dependencies": [true, "dev"]
+    "no-implicit-dependencies": [true, "dev"],
+    "interface-name": [true, "never-prefix"]
   }
 }

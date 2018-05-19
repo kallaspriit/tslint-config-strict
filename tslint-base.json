@@ -13,8 +13,7 @@
       { "ignore-words": ["TODO"] }
     ],
     "no-console": false,
-    "no-import-side-effect": [true, { "ignore-module": "(\\.css|\\.svg)$" }],
-    "no-magic-numbers": [true, -1, 0, 1, 2, 1000, 60],
+    "no-magic-numbers": [true, -1, 0, 1, 2, 10, 60, 100, 1000, 3600],
     "await-promise": [true, "AxiosPromise"],
     "no-void-expression": [true, "ignore-arrow-function-shorthand"],
     "strict-boolean-expressions": false,
@@ -26,6 +25,8 @@
     "prefer-object-spread": false,
     "no-parameter-properties": false,
     "no-implicit-dependencies": [true, "dev"],
-    "interface-name": [true, "never-prefix"]
+    "interface-name": [true, "never-prefix"],
+    "no-import-side-effect": false,
+    "no-null-keyword": false
   }
 }

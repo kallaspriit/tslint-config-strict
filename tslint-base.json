@@ -60,6 +60,7 @@
     "return-undefined": false,
     "prefer-object-spread": false,
     "no-parameter-properties": false,
+    "strict-type-predicates": false,
     "no-implicit-dependencies": [
       true,
       "dev"

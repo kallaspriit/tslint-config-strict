@@ -1,16 +1,8 @@
 {
-  "extends": [
-    "tslint:all"
-  ],
+  "extends": ["tslint:all"],
   "rules": {
-    "object-literal-sort-keys": [
-      false
-    ],
-    "variable-name": [
-      true,
-      "allow-leading-underscore",
-      "allow-pascal-case"
-    ],
+    "object-literal-sort-keys": [false],
+    "variable-name": [true, "allow-leading-underscore", "allow-pascal-case"],
     "member-ordering": [
       true,
       {
@@ -18,40 +10,18 @@
       }
     ],
     "no-default-export": false,
-    "only-arrow-functions": [
-      true,
-      "allow-declarations"
-    ],
+    "only-arrow-functions": [true, "allow-declarations"],
     "comment-format": [
       true,
       "check-space",
       {
-        "ignore-words": [
-          "TODO"
-        ]
+        "ignore-words": ["TODO"]
       }
     ],
     "no-console": false,
-    "no-magic-numbers": [
-      true,
-      -1,
-      0,
-      1,
-      2,
-      10,
-      60,
-      100,
-      1000,
-      3600
-    ],
-    "await-promise": [
-      true,
-      "AxiosPromise"
-    ],
-    "no-void-expression": [
-      true,
-      "ignore-arrow-function-shorthand"
-    ],
+    "no-magic-numbers": [true, -1, 0, 1, 2, 10, 60, 100, 1000, 3600],
+    "await-promise": [true, "AxiosPromise"],
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"],
     "strict-boolean-expressions": false,
     "typedef": false,
     "newline-per-chained-call": false,
@@ -61,16 +31,11 @@
     "prefer-object-spread": false,
     "no-parameter-properties": false,
     "strict-type-predicates": false,
-    "no-implicit-dependencies": [
-      true,
-      "dev"
-    ],
-    "interface-name": [
-      true,
-      "never-prefix"
-    ],
+    "no-implicit-dependencies": [true, "dev"],
+    "interface-name": [true, "never-prefix"],
     "no-import-side-effect": false,
     "no-null-keyword": false,
-    "prefer-function-over-method": false
+    "prefer-function-over-method": false,
+    "match-default-export-name": false
   }
 }

@@ -36,6 +36,7 @@
     "no-import-side-effect": false,
     "no-null-keyword": false,
     "prefer-function-over-method": false,
-    "match-default-export-name": false
+    "match-default-export-name": false,
+    "file-name-casing": false
   }
 }
